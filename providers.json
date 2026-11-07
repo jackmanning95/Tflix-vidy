@@ -2,9 +2,9 @@
   {
     "id": "vidy",
     "name": "Vidy.st",
-    "description": "Vidy.st embedded player for TMDB movies and TV episodes.",
+    "description": "Vidy.st embedded player for TMDB movies and TV episodes. Requests autoplay when the TV browser permits it.",
     "type": "embed",
-    "movieUrl": "https://vidy.st/movie/{id}?color=509FE0",
-    "tvUrl": "https://vidy.st/tv/{id}/{season}/{episode}?color=509FE0&nextEpisode=true&episodeSelector=true&autoplayNextEpisode=true"
+    "movieUrl": "https://vidy.st/movie/{id}?color=509FE0&autoplay=true",
+    "tvUrl": "https://vidy.st/tv/{id}/{season}/{episode}?color=509FE0&autoplay=true&nextEpisode=true&episodeSelector=true&autoplayNextEpisode=true"
   }
 ]
